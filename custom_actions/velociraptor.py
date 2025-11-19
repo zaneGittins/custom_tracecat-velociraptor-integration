@@ -52,7 +52,7 @@ def run_velociraptor_query(
         str,
         Field(
             ...,
-            description="VQL query to run against the Velociraptor server.",
+            description="VQL query to run via api against the Velociraptor server.",
         ),
     ],
     max_rows: Annotated[
