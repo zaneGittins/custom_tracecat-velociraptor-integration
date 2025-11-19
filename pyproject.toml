@@ -8,7 +8,7 @@ description = "Custom velociraptor integration"
 readme = "README.md"
 requires-python = ">=3.12"
 dynamic = ["version"]
-dependencies = ["pyvelociraptor==v0.1.11"]
+dependencies = ["pyvelociraptor====0.1.8"]
 
 [tool.hatch.version]
 path = "custom_actions/__init__.py"
